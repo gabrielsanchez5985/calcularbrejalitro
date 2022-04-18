@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/calcularbrejalitro/static/css/main.9fec4884.css",
-    "main.js": "/calcularbrejalitro/static/js/main.046d0d25.js",
+    "main.js": "/calcularbrejalitro/static/js/main.0db6ec2c.js",
     "index.html": "/calcularbrejalitro/index.html",
     "main.9fec4884.css.map": "/calcularbrejalitro/static/css/main.9fec4884.css.map",
-    "main.046d0d25.js.map": "/calcularbrejalitro/static/js/main.046d0d25.js.map"
+    "main.0db6ec2c.js.map": "/calcularbrejalitro/static/js/main.0db6ec2c.js.map"
   },
   "entrypoints": [
     "static/css/main.9fec4884.css",
-    "static/js/main.046d0d25.js"
+    "static/js/main.0db6ec2c.js"
   ]
 }
