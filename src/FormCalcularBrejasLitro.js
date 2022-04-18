@@ -52,7 +52,7 @@ const FormCalcularBrejasLitro = () => {
         <div className="form-calcular-brejas">
             <div className="form-input">
                 <label><strong>#</strong> Quantidade <span className="Breja-span-theme">brejas</span></label><input type={'number'} onChange={ (e) => handleTotalLatasChange(e) } value={totalLatas} ></input>
-                <label>🍺 Volume cada <span className="Breja-span-theme">brejas</span> (ml)</label><input type={'number'} onChange={ (e) => handleVolumeLatasChange(e) } value={volumeLata} ></input>
+                <label>🍺 Volume cada <span className="Breja-span-theme">breja</span> (ml)</label><input type={'number'} onChange={ (e) => handleVolumeLatasChange(e) } value={volumeLata} ></input>
                 <label>💰 Preço total</label><input type={'number'} step='0.01' onChange={ (e) => handlePrecoTotalChange(e) } value={precoTotal} ></input>
             </div>
             <div className="form-output">
