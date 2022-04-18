@@ -50,14 +50,14 @@ const FormCalcularBrejasLitro = () => {
     return (
         <div className="form-calcular-brejas">
             <div className="form-input">
-                <label>Quantidade latas</label><input type={'number'} onChange={ (e) => handleTotalLatasChange(e) } value={totalLatas} ></input>
-                <label>Volume cada lata (ml)</label><input type={'number'} onChange={ (e) => handleVolumeLatasChange(e) } value={volumeLata} ></input>
-                <label>Preço total</label><input type={'number'} step='0.01' onChange={ (e) => handlePrecoTotalChange(e) } value={precoTotal} ></input>
+                <label><strong>#</strong> Quantidade latas</label><input type={'number'} onChange={ (e) => handleTotalLatasChange(e) } value={totalLatas} ></input>
+                <label>🍺 Volume cada lata (ml)</label><input type={'number'} onChange={ (e) => handleVolumeLatasChange(e) } value={volumeLata} ></input>
+                <label>💰 Preço total</label><input type={'number'} step='0.01' onChange={ (e) => handlePrecoTotalChange(e) } value={precoTotal} ></input>
             </div>
             <div className="form-output">
-                <button onClick={ () => calcular() } >Calcular ⚙</button>
-                <span><output className="Breja-span-theme">{ precoLitro }</output> o litro</span>
-                <span><output className="Breja-span-theme">{ volumeTotal }</output> total ml</span>
+                <button onClick={ () => calcular() } >Calcular 🛠</button>
+                <span>R$ <output className="Breja-span-theme">{ precoLitro }</output> o litro</span>
+                <span><output className="Breja-span-theme">{ volumeTotal }</output>ml total</span>
             </div>
         </div>
     );
