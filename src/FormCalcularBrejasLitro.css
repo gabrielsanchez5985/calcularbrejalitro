@@ -1,0 +1,105 @@
+input {
+    max-width: 10ch;
+}
+
+input, button {
+    text-align: center;
+}
+
+.form-calcular-brejas {
+    display: grid;
+    grid-template-areas: 
+    "input"
+    "output";
+    gap: 1rem;
+    justify-items: center;
+}
+
+.form-calcular-brejas > div:nth-of-type(1) {
+    grid-area: input;
+}
+
+
+.form-calcular-brejas > div:nth-of-type(2) {
+    grid-area: output;
+}
+
+.form-input {
+    display: grid;
+    grid-template-areas: 
+    "label1 . input1"
+    "label2 . input2"
+    "label3 . input3";
+    gap: 0.5rem;
+}
+
+.form-input > input {
+    min-height: 1.5rem;
+    max-height: 1.5rem;
+    border-color: rgb(var(--clr-bg-theme));
+    background-color: rgb(var(--clr-bg-theme));
+    border-radius: 0.5rem;
+    font-weight: 800;
+}
+
+.form-input > label:nth-of-type(1) {
+    grid-area: label1;
+}
+
+
+.form-input > label:nth-of-type(2) {
+    grid-area: label2;
+}
+
+.form-input > label:nth-of-type(3) {
+    grid-area: label3;
+}
+
+
+.form-input > input:nth-of-type(1) {
+    grid-area: input1;
+}
+
+
+.form-input > input:nth-of-type(2) {
+    grid-area: input2;
+}
+
+.form-input > input:nth-of-type(3) {
+    grid-area: input3;
+}
+
+.form-output {
+    display: grid;
+    grid-template-areas: 
+    "button . span1"
+    ". . span2";
+    gap: 0.5rem;
+}
+
+.form-output > button {
+    grid-area: button;
+    padding: 0.5rem;
+    background-color: rgba(var(--clr-bg-theme));
+    color: rgb(var(--clr-bg-heavy));
+    font-weight: 600;
+    font-size: 1rem;
+    border-color: rgb(var(--clr-bg-theme));
+    border-radius: 0.5rem;
+}
+
+.form-output > button:active {
+    background-color: rgba(var(--clr-bg-theme), 0.6);
+}
+
+.form-output > button:hover {
+    border-color: rgba(var(--clr-bg-theme), 0.2);
+}
+
+.form-output > span:nth-of-type(1) {
+    grid-area: span1;
+}
+
+.form-output > span:nth-of-type(2) {
+    grid-area: span2;
+}

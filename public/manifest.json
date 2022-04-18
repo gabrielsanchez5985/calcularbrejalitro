@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Calcular Breja Litro",
+  "name": "Calcular Custo Breja por Litro",
   "icons": [
     {
       "src": "favicon.ico",
